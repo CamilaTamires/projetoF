@@ -1,0 +1,188 @@
+body{
+    font-family: 'Big Shoulders Display', cursive;
+     background-image: url('../IMG/background.jpg');
+     margin: 0;
+    /*  min-height: 3000px; */
+     font-family: "Montserrat", sans-serif;
+}
+
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px
+
+}
+
+.apresenta{
+    display: flex;
+    justify-content:center;
+    font-size: 50px;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* camila*/
+
+.gtco-testimonials {
+  position: relative;
+  margin-top: 30px;
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px;
+  }
+
+  .owl-stage-outer {
+    padding: 30px 0;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+    .active {
+      box-shadow: none;
+
+      span {
+        background: #01b0f8;
+        box-shadow: none;
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0;
+
+    .card-img-top {
+      max-width: 100px;
+      border-radius: 50%;
+      margin: 15px auto 0;
+      box-shadow: 0 8px 20px -4px #95abbb;
+      width: 100px;
+      height: 100px;
+    }
+
+    h5 {
+      color: #01b0f8;
+      font-size: 21px;
+      line-height: 1.3;
+
+      span {
+        font-size: 18px;
+        color: #666666;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      padding-bottom: 15px;
+    }
+  }
+
+  .active {
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+
+  .center {
+    opacity: 1;
+
+    h5 {
+      font-size: 24px;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    .card-img-top {
+      max-width: 100%;
+      height: 120px;
+      width: 120px;
+    }
+  }
+
+
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+
+.owl-carousel {
+  .owl-nav button {
+    &.owl-next,
+    &.owl-prev {
+      outline: 0;
+    }
+  }
+
+  button.owl-dot {
+    outline: 0;
+  }
+}
+
+
+/* camila */
+
+
+/* .outer-container {
+    max-width: 600px;
+    margin: auto;
+    width: 90%;
+    padding: 200px 0px;
+    position: relative;
+  }
+  
+  .image-container {
+    padding-bottom: 100%;
+    background: black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-title {
+    margin: 0;
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translateY(-50%);
+    z-index: 1;
+    white-space: nowrap;
+  }
+  .section-title.on-dark {
+    color: white;
+  }
+  .section-title span {
+    position: relative;
+    display: block;
+  } */
